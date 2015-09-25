@@ -18,7 +18,7 @@
 #
 # DO NOT USE ANY OF THE BUILT IN LIST METHODS, OR len(l)
 
-FURTHER_STUDY = False
+FURTHER_STUDY = True
 
 
 def head(input_list):
@@ -269,8 +269,11 @@ def custom_len(input_list):
     8
 
     """
+    for i in input_list:
+        count = 0
+        
 
-    return 0
+    return count
 
 
 # For the next four exercises, you'll need to be clever and think about ways
